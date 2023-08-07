@@ -354,7 +354,6 @@ type Product = {
     ],
   };
   
-  
   type Menu = {
     id: number;
     slug: string;
@@ -363,6 +362,7 @@ type Product = {
     img?: string;
     color: string;
   }[];
+ 
   
   export const menu: Menu = [
     {
